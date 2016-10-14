@@ -1,0 +1,17 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.h2database:h2:1.4.181'
+        classpath 'org.flywaydb:flyway-gradle-plugin:3.0'
+    }
+}
+
+apply plugin: 'flyway'
+apply plugin: 'java'
+
+flyway {
+    url = 'jdbc:h2:file:./persondb'
+    user = 'sa'
+}
