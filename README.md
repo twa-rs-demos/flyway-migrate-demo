@@ -1,7 +1,7 @@
 # Flyway gradle
 ####运行环境
-1.Java 6+
-2.A working Gradle install  (https://gradle.org/gradle-download/)
+######1.Java 6+
+######2.A working Gradle install  (https://gradle.org/gradle-download/)
 
 ####运行方式
 
